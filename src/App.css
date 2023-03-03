@@ -1,0 +1,139 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(75, 15, 70),
+    rgb(178, 172, 225)
+  );
+  justify-content: center;
+}
+
+.title {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+.address {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.textbox {
+  width: 350px;
+  height: 24px;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(203, 201, 219);
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(203, 201, 219);
+}
+
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(75, 15, 70),
+    rgb(178, 172, 225)
+  );
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  width: 60vw;
+  height: 80vh;
+  border-radius: 12px;
+  background-color: rgb(137, 104, 152);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.modalContainer .button {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(137, 104, 152);
+  border: 0;
+  text-align: end;
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.modalContainer .search {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.modalContainer .textbox {
+  width: 100%;
+  height: 30px;
+  margin: 20%;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(203, 201, 219);
+}
+
+.modalContainer .body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #000000;
+}
+
+tr {
+  margin-bottom: 20px;
+}
+
+tr:hover {
+  background-color: rgb(203, 201, 219);
+}
+
+th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
